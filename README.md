@@ -14,6 +14,10 @@ Repositório para armazenar resumos sobre Git e GitHub do curso Versionamento de
 
 ## Comandos Git
 ```
+git config --global user.name "Nome"
+git config --global user.email "email"
+git config --global init.defaultBranch nomeDaBranch
+
 git init
 git remote add origin (URL do repositório)
 git status
@@ -22,6 +26,7 @@ git add README.md
 git commit -m"descrição do commit"
 touch resumos/resumo-aula1.md
 echo resumos/ > .gitignore
+git log  //mostra todos os commits realizados
 
 rm -rf .git  //vai excluir o versionamento, caso tenha dado init na pasta errada
 git restore README.md  //Vai voltar a modificação mais recente, caso queira deletar as alterações feitas
