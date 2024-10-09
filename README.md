@@ -40,6 +40,13 @@ git restore --staged (nome do arquivo)  //Vai remover os arquivos que haviam sid
 
 git push -u origin main  //o "push" é o responsável por enviar as alterações do repositório local para o remoto
 git pull  //o "pull" vai buscar as alterações feitas no repositório remoto e mesclar com o nosso repositório local
+
+git checkout -b nomeDaNovaBranch  // Cria uma nova branch e altera a atual em que você está para a nova
+git checkout nomeDaBranch  // Altera a branch em que você está para a indicada no comando
+git branch -v  // Mostra o último commit de todas as branchs existentes
+git branch  // Lista todas as branchs
+git merge  // Usamos para poder mesclar branchs, por exemplo uma alteração feita na branch "teste" que não tem na "main", então fazemos um merge dentro da branch "main" apontando para a "teste"
+git branch -d nomeDaBranch  //Exclui uma branch
 ```
 ## Referências
 - [Digital Innovation One] ()
