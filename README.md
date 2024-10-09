@@ -31,6 +31,8 @@ git reset --hard (aqui vao o código do commit)  //Aqui ele desfaz os arquivos d
 git reflog  //Vai mostrar todos os commits realizados
 git reset (nome do arquivo)  //Vai retirar esse arquivo da área de preparação
 git restore --staged (nome do arquivo)  //Vai remover os arquivos que haviam sido commitados
+
+git push -u origin main  //o "push" é o responsável por enviar as alterações do repositório local para o remoto
 ```
 ## Referências
 - [Digital Innovation One] ()
