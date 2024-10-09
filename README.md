@@ -47,6 +47,13 @@ git branch -v  // Mostra o último commit de todas as branchs existentes
 git branch  // Lista todas as branchs
 git merge  // Usamos para poder mesclar branchs, por exemplo uma alteração feita na branch "teste" que não tem na "main", então fazemos um merge dentro da branch "main" apontando para a "teste"
 git branch -d nomeDaBranch  //Exclui uma branch
+
+git fetch origin main  //Comando útil para quando você apenas quer apenas baixar o conteúdo da branch remota sem mesclar com a branch local
+git clone (URL do repositório) --branch nomeDaBranch --single-branch  //Serve para você poder clonar apenas uma branch específica
+git stash  //Esse comando arquiva uma modificação, é útil para situações quando você não quer que uma alteração específica suba para a main quando você for darum merge por exemplo
+git stash list  //Vai listar todas as alterações arquivadas
+git stash apply //É para quando você quer trazer de volta as modificações que foram arquivadas e também deseja manter essas mesmas modificações na lista de arquivados
+git stash pop //Esse comando é igual ao apply, a diferença é que ele exclui as alterações das listas de arquivadas
 ```
 ## Referências
 - [Digital Innovation One] ()
