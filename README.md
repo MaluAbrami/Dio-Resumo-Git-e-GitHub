@@ -34,6 +34,7 @@ git reset (nome do arquivo)  //Vai retirar esse arquivo da área de preparação
 git restore --staged (nome do arquivo)  //Vai remover os arquivos que haviam sido commitados
 
 git push -u origin main  //o "push" é o responsável por enviar as alterações do repositório local para o remoto
+git pull  //o "pull" vai buscar as alterações feitas no repositório remoto e mesclar com o nosso repositório local
 ```
 ## Referências
 - [Digital Innovation One] ()
